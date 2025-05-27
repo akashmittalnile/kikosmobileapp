@@ -355,7 +355,7 @@ const AudioDetails = props => {
                 <View style={{height: 200, width: '100%', alignSelf: 'center'}}>
                   <FastImage
                     style={styles.imageBackground}
-                    resizeMode="stretch"
+                    resizeMode="cover"
                     source={{uri: `${tourDetail?.thumbnail}`}}
                   />
                 </View>

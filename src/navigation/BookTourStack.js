@@ -58,26 +58,26 @@ function BookTourStack() {
         component={BookTour}
         options={{
           headerShown: false,
-          transitionSpec: {
-            open: config,
-            close: closeConfig,
-          },
-          gestureEnabled: true,
-          gestureDirection: 'vertical',
-          cardStyleInterpolator: ({current, layouts}) => {
-            return {
-              cardStyle: {
-                transform: [
-                  {
-                    translateY: current.progress.interpolate({
-                      inputRange: [0, 1],
-                      outputRange: [layouts.screen.height, 0],
-                    }),
-                  },
-                ],
-              },
-            };
-          },
+          // transitionSpec: {
+          //   open: config,
+          //   close: closeConfig,
+          // },
+          // gestureEnabled: true,
+          // gestureDirection: 'vertical',
+          // cardStyleInterpolator: ({current, layouts}) => {
+          //   return {
+          //     cardStyle: {
+          //       transform: [
+          //         {
+          //           translateY: current.progress.interpolate({
+          //             inputRange: [0, 1],
+          //             outputRange: [layouts.screen.height, 0],
+          //           }),
+          //         },
+          //       ],
+          //     },
+          //   };
+          // },
         }}
       />
       <Stack.Screen
@@ -143,22 +143,22 @@ function BookTourStack() {
             open: config,
             close: closeConfig,
           },
-          gestureEnabled: true,
-          gestureDirection: 'vertical',
-          cardStyleInterpolator: ({current, layouts}) => {
-            return {
-              cardStyle: {
-                transform: [
-                  {
-                    translateY: current.progress.interpolate({
-                      inputRange: [0, 1],
-                      outputRange: [layouts.screen.height, 0],
-                    }),
-                  },
-                ],
-              },
-            };
-          },
+          // gestureEnabled: true,
+          // gestureDirection: 'vertical',
+          // cardStyleInterpolator: ({current, layouts}) => {
+          //   return {
+          //     cardStyle: {
+          //       transform: [
+          //         {
+          //           translateY: current.progress.interpolate({
+          //             inputRange: [0, 1],
+          //             outputRange: [layouts.screen.height, 0],
+          //           }),
+          //         },
+          //       ],
+          //     },
+          //   };
+          // },
         }}
       />
       <Stack.Screen
@@ -170,22 +170,22 @@ function BookTourStack() {
             open: config,
             close: closeConfig,
           },
-          gestureEnabled: true,
-          gestureDirection: 'vertical',
-          cardStyleInterpolator: ({current, layouts}) => {
-            return {
-              cardStyle: {
-                transform: [
-                  {
-                    translateY: current.progress.interpolate({
-                      inputRange: [0, 1],
-                      outputRange: [layouts.screen.height, 0],
-                    }),
-                  },
-                ],
-              },
-            };
-          },
+          // gestureEnabled: true,
+          // gestureDirection: 'vertical',
+          // cardStyleInterpolator: ({current, layouts}) => {
+          //   return {
+          //     cardStyle: {
+          //       transform: [
+          //         {
+          //           translateY: current.progress.interpolate({
+          //             inputRange: [0, 1],
+          //             outputRange: [layouts.screen.height, 0],
+          //           }),
+          //         },
+          //       ],
+          //     },
+          //   };
+          // },
         }}
       />
       <Stack.Screen
@@ -197,22 +197,22 @@ function BookTourStack() {
             open: config,
             close: closeConfig,
           },
-          gestureEnabled: true,
-          gestureDirection: 'vertical',
-          cardStyleInterpolator: ({current, layouts}) => {
-            return {
-              cardStyle: {
-                transform: [
-                  {
-                    translateY: current.progress.interpolate({
-                      inputRange: [0, 1],
-                      outputRange: [layouts.screen.height, 0],
-                    }),
-                  },
-                ],
-              },
-            };
-          },
+          // gestureEnabled: true,
+          // gestureDirection: 'vertical',
+          // cardStyleInterpolator: ({current, layouts}) => {
+          //   return {
+          //     cardStyle: {
+          //       transform: [
+          //         {
+          //           translateY: current.progress.interpolate({
+          //             inputRange: [0, 1],
+          //             outputRange: [layouts.screen.height, 0],
+          //           }),
+          //         },
+          //       ],
+          //     },
+          //   };
+          // },
         }}
       />
       <Stack.Screen
@@ -224,22 +224,22 @@ function BookTourStack() {
             open: config,
             close: closeConfig,
           },
-          gestureEnabled: true,
-          gestureDirection: 'vertical',
-          cardStyleInterpolator: ({current, layouts}) => {
-            return {
-              cardStyle: {
-                transform: [
-                  {
-                    translateY: current.progress.interpolate({
-                      inputRange: [0, 1],
-                      outputRange: [layouts.screen.height, 0],
-                    }),
-                  },
-                ],
-              },
-            };
-          },
+          // gestureEnabled: true,
+          // gestureDirection: 'vertical',
+          // cardStyleInterpolator: ({current, layouts}) => {
+          //   return {
+          //     cardStyle: {
+          //       transform: [
+          //         {
+          //           translateY: current.progress.interpolate({
+          //             inputRange: [0, 1],
+          //             outputRange: [layouts.screen.height, 0],
+          //           }),
+          //         },
+          //       ],
+          //     },
+          //   };
+          // },
         }}
       />
       <Stack.Screen
@@ -251,22 +251,22 @@ function BookTourStack() {
             open: config,
             close: closeConfig,
           },
-          gestureEnabled: true,
-          gestureDirection: 'vertical',
-          cardStyleInterpolator: ({current, layouts}) => {
-            return {
-              cardStyle: {
-                transform: [
-                  {
-                    translateY: current.progress.interpolate({
-                      inputRange: [0, 1],
-                      outputRange: [layouts.screen.height, 0],
-                    }),
-                  },
-                ],
-              },
-            };
-          },
+          // gestureEnabled: true,
+          // gestureDirection: 'vertical',
+          // cardStyleInterpolator: ({current, layouts}) => {
+          //   return {
+          //     cardStyle: {
+          //       transform: [
+          //         {
+          //           translateY: current.progress.interpolate({
+          //             inputRange: [0, 1],
+          //             outputRange: [layouts.screen.height, 0],
+          //           }),
+          //         },
+          //       ],
+          //     },
+          //   };
+          // },
         }}
       />
       <Stack.Screen
@@ -278,22 +278,22 @@ function BookTourStack() {
             open: config,
             close: closeConfig,
           },
-          gestureEnabled: true,
-          gestureDirection: 'vertical',
-          cardStyleInterpolator: ({current, layouts}) => {
-            return {
-              cardStyle: {
-                transform: [
-                  {
-                    translateY: current.progress.interpolate({
-                      inputRange: [0, 1],
-                      outputRange: [layouts.screen.height, 0],
-                    }),
-                  },
-                ],
-              },
-            };
-          },
+          // gestureEnabled: true,
+          // gestureDirection: 'vertical',
+          // cardStyleInterpolator: ({current, layouts}) => {
+          //   return {
+          //     cardStyle: {
+          //       transform: [
+          //         {
+          //           translateY: current.progress.interpolate({
+          //             inputRange: [0, 1],
+          //             outputRange: [layouts.screen.height, 0],
+          //           }),
+          //         },
+          //       ],
+          //     },
+          //   };
+          // },
         }}
       />
       <Stack.Screen
@@ -305,22 +305,22 @@ function BookTourStack() {
             open: config,
             close: closeConfig,
           },
-          gestureEnabled: true,
-          gestureDirection: 'vertical',
-          cardStyleInterpolator: ({current, layouts}) => {
-            return {
-              cardStyle: {
-                transform: [
-                  {
-                    translateY: current.progress.interpolate({
-                      inputRange: [0, 1],
-                      outputRange: [layouts.screen.height, 0],
-                    }),
-                  },
-                ],
-              },
-            };
-          },
+          // gestureEnabled: true,
+          // gestureDirection: 'vertical',
+          // cardStyleInterpolator: ({current, layouts}) => {
+          //   return {
+          //     cardStyle: {
+          //       transform: [
+          //         {
+          //           translateY: current.progress.interpolate({
+          //             inputRange: [0, 1],
+          //             outputRange: [layouts.screen.height, 0],
+          //           }),
+          //         },
+          //       ],
+          //     },
+          //   };
+          // },
         }}
       />
       <Stack.Screen
@@ -332,22 +332,22 @@ function BookTourStack() {
             open: config,
             close: closeConfig,
           },
-          gestureEnabled: true,
-          gestureDirection: 'vertical',
-          cardStyleInterpolator: ({current, layouts}) => {
-            return {
-              cardStyle: {
-                transform: [
-                  {
-                    translateY: current.progress.interpolate({
-                      inputRange: [0, 1],
-                      outputRange: [layouts.screen.height, 0],
-                    }),
-                  },
-                ],
-              },
-            };
-          },
+          // gestureEnabled: true,
+          // gestureDirection: 'vertical',
+          // cardStyleInterpolator: ({current, layouts}) => {
+          //   return {
+          //     cardStyle: {
+          //       transform: [
+          //         {
+          //           translateY: current.progress.interpolate({
+          //             inputRange: [0, 1],
+          //             outputRange: [layouts.screen.height, 0],
+          //           }),
+          //         },
+          //       ],
+          //     },
+          //   };
+          // },
         }}
       />
       <Stack.Screen
@@ -359,22 +359,22 @@ function BookTourStack() {
             open: config,
             close: closeConfig,
           },
-          gestureEnabled: true,
-          gestureDirection: 'vertical',
-          cardStyleInterpolator: ({current, layouts}) => {
-            return {
-              cardStyle: {
-                transform: [
-                  {
-                    translateY: current.progress.interpolate({
-                      inputRange: [0, 1],
-                      outputRange: [layouts.screen.height, 0],
-                    }),
-                  },
-                ],
-              },
-            };
-          },
+          // gestureEnabled: true,
+          // gestureDirection: 'vertical',
+          // cardStyleInterpolator: ({current, layouts}) => {
+          //   return {
+          //     cardStyle: {
+          //       transform: [
+          //         {
+          //           translateY: current.progress.interpolate({
+          //             inputRange: [0, 1],
+          //             outputRange: [layouts.screen.height, 0],
+          //           }),
+          //         },
+          //       ],
+          //     },
+          //   };
+          // },
         }}
       />
       {/* <Stack.Screen name={ScreenNames.NO_CONNECTION} component={NoConnection} /> */}
@@ -389,22 +389,22 @@ function BookTourStack() {
             open: config,
             close: closeConfig,
           },
-          gestureEnabled: true,
-          gestureDirection: 'vertical',
-          cardStyleInterpolator: ({current, layouts}) => {
-            return {
-              cardStyle: {
-                transform: [
-                  {
-                    translateY: current.progress.interpolate({
-                      inputRange: [0, 1],
-                      outputRange: [layouts.screen.height, 0],
-                    }),
-                  },
-                ],
-              },
-            };
-          },
+          // gestureEnabled: true,
+          // gestureDirection: 'vertical',
+          // cardStyleInterpolator: ({current, layouts}) => {
+          //   return {
+          //     cardStyle: {
+          //       transform: [
+          //         {
+          //           translateY: current.progress.interpolate({
+          //             inputRange: [0, 1],
+          //             outputRange: [layouts.screen.height, 0],
+          //           }),
+          //         },
+          //       ],
+          //     },
+          //   };
+          // },
         }}
       />
     </Stack.Navigator>

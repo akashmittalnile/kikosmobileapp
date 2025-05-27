@@ -39,11 +39,11 @@ const PurchaseReview = props => {
       name: 'PayPal',
       image_url: require('../../assets/images/Icons/paypal.png'),
     },
-    {
-      id: 2,
-      name: 'Venmo',
-      image_url: require('../../assets/images/Icons/Venmoicon.png'),
-    },
+    // {
+    //   id: 2,
+    //   name: 'Venmo',
+    //   image_url: require('../../assets/images/Icons/Venmoicon.png'),
+    // },
     // {
     //   id: 3,
     //   name: 'Venmo',
@@ -61,7 +61,7 @@ const PurchaseReview = props => {
 
   const [orderInfoData, setOrderInfoData] = useState({});
   const [showCouponLoader, setshowCouponLoader] = useState(false);
-  const [selectedPaymentType, setselectedPaymentType] = useState('');
+  const [selectedPaymentType, setselectedPaymentType] = useState('1');
   const [couponCode, setcouponCode] = useState('');
   const [isWalletSelected, setIsWalletSelected] = useState(true);
   const [isCouponApplied, setIsCouponApplied] = useState(false);

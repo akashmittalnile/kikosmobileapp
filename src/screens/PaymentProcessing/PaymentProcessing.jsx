@@ -93,6 +93,7 @@ const PaymentProcessing = ({navigation, route}) => {
       'POST',
       user.token,
     );
+    console.log('RESPONSE:::::', responseJson, err);
     setLoading(false);
     if (err == null) {
       if (responseJson.status == true) {

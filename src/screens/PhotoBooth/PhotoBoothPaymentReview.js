@@ -90,12 +90,12 @@ const PhotoBoothPaymentReview = props => {
     return amt;
   };
   const TotalBillAmountwithTax = () => {
-    let a = tourdetails?.price;
-    let tax= tourdetails?.tax;
-    const amt = (a) * tax / 100;
-    const totalamttax =  a + amt;
-    return totalamttax;
-  };
+  const a = Number(tourdetails?.price);
+  const tax = Number(tourdetails?.tax);
+  const amt = (a * tax) / 100;
+  const totalamttax = a + amt;
+  return totalamttax;
+};
 
   // const BookTourApi = async id => {
   //   setLoading(true);
